@@ -24,7 +24,130 @@ header {
     width: 100%;
 }
 
-.Layout-grid {
+#banner {
+    background-color: #4969DF;
+    height: 500px;
+    width: 100%;
+}
+
+#banner2 {
+    background-color: #3691d8;
+    height: 500px;
+    width: 100%;
+}
+
+
+.banner-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 3px solid crimson; */
+}
+
+.banner-flex2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-info {
+    width: 450px;
+    height: 300px;
+    /* border: 3px solid crimson; */
+}
+
+.banner-info2 {
+    width: 450px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+#banner img {
+    height: 500px;
+    width: 500px;
+    align-self: flex-end;
+}
+
+#banner2 img {
+    height: 470px;
+    width: 470px;
+    align-self: flex-end;
+}
+
+.banner-info h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.banner-info2 h2{
+    color: white;
+    font-size: 30px;
+}
+
+.banner-info2 p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.banner-info p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.banner-info2 button {
+    background-color: #26333D;
+    color: white;
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+.banner-info button {
+    background-color: #26333D;
+    color: white;
+    height: 60px;
+    width: 180px;
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    border: none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.layout-grid {
     margin: 0 auto;
     width: 100%;
     /* border: 3px solid snow; */
@@ -101,13 +224,14 @@ header nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 7px solid aqua;
+    margin: 3px solid aqua;
     margin-top: -60px;
     border-radius: 50%;
     border: 4px solid aqua;
     height: 80px;
     width: 80px;
     background-color: azure;
+
 }
 
 .motivo img {
@@ -132,7 +256,7 @@ header nav a {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 700px;
+    height: 900px;
     margin-top: 0;
     /* border: 2px solid salmon; */
     background-color: whitesmoke;
@@ -144,8 +268,9 @@ header nav a {
     margin-top: 50px;
     margin-bottom: 50px;
     border-bottom: aqua;
-    font-size: 42px;
+    font-size: 30px;
     text-decoration: underline aqua;
+    margin-bottom: -100px;
 }
 
 .recomendados {
@@ -230,10 +355,9 @@ footer hr {
     font-weight: 300;
     margin-bottom: 10px;
     width: 100%;
-    
 }
 
-.apps {
+.link-app {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -243,13 +367,13 @@ footer hr {
     /* border: 2px solid red; */
 } 
 
-.apps img {
+.link-app img {
     width: 30px;
     height: 30px;
     margin-left: 20px;
 }
 
-.apps h1 {
+.link-app h1 {
     color: #2FD6CB;
     font-weight: 300;
     font-size: 20px;
@@ -271,6 +395,3 @@ footer hr {
 section a:hover {
     color: #2FD6CB;
 }
-
-
-
